@@ -1,0 +1,35 @@
+.bg-height{
+  min-height: 100vh;
+}
+.bg-cover{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* container */
+.section-padding{
+  padding: 70px 0px;
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container-padding{
+  padding: 0px 120px;
+}
+@media screen and (max-width: 1200px){
+  .container-padding{
+      padding: 0px 80px;
+  }
+}
+@media screen and (max-width: 768px){
+  .container-padding{
+      padding: 0px 40px;
+  }
+}
+@media screen and (max-width: 576px){
+  .container-padding{
+      padding: 0px 20px;
+  }
+}
