@@ -1,5 +1,5 @@
 .bg-login-image{
-    background-image: url("images/bg-login.jpg");
+    background-image: url("/src/images/bg-login.jpg");
     position: relative;
 }
 .home-content{
